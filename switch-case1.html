@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>switch-case1</title>
+</head>
+<body>
+	<script>
+		var browser = prompt("please type your: ",'')
+		switch (browser){
+			case 'edge':
+				alert("you've got the edge!");
+				break;
+			case 'chrome':
+			case 'firefox':
+			case 'safari':
+			case 'opera':
+				alert('okay we support these browsers too');
+				break;
+			default:
+			alert('we hope that this page looks ok!');
+		}
+	</script>
+</body>
+</html>
